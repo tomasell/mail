@@ -19,7 +19,7 @@
 		"CC-BY-3.0"
 	],
 	"require" : {
-		"bread/configuration" : "~0.1",
+		"bread/configuration" : "~1.0",
 		"phpmailer/phpmailer":">=5.2.7"
 	},
 	"autoload" : {

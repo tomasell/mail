@@ -25,7 +25,7 @@ class Model
 
     protected $body;
 
-    protected $type = static::TEXT_PLAIN;
+    protected $type;
 
     /**
      * The file name of the file to attach or the file contents itself
@@ -34,6 +34,7 @@ class Model
 
     public function __construct(array $params = array())
     {
+        $this->type = static::TEXT_PLAIN;
         foreach ($params as $attribute => $value) {
             $this->$attribute = $value;
         }
