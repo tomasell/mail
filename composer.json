@@ -19,18 +19,9 @@
 		"CC-BY-3.0"
 	],
 	"require" : {
-		"php" : ">=5.5",
-		"bread/configuration" : "*",
-    "pear-pear/Mail_Mime": ">=1.8.7",
-		"pear-pear/Mail" : "*",
-		"pear-pear/Net_SMTP" : ">=1.6.2"
+		"bread/configuration" : "~0.1",
+		"phpmailer/phpmailer":">=5.2.7"
 	},
-	"repositories": [
-  	{
-    	"type": "pear",
-      "url": "http://pear.php.net"
-    }
-  ],
 	"autoload" : {
 		"psr-0" : {
 			"Bread\\Mail" : "src"
